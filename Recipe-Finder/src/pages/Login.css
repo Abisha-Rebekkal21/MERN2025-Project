@@ -1,0 +1,62 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+  background-color: gray;
+}
+
+.page h2 {
+  color: #ff6347;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+form {
+  background-color: green;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #7e1300;
+  box-shadow: 0 0 4px #7e1300;
+}
+
+form button {
+  padding: 10px;
+  background-color: #7e1300;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #e5533c;
+}
+
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
