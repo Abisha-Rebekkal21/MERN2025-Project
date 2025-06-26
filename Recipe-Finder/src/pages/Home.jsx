@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'; // Create this file for custom styles
-
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="home-page">
@@ -8,8 +8,9 @@ const Home = () => {
         <h1>Welcome to <span className="highlight">Recipe Finder</span></h1>
         <p>Discover, cook, and enjoy hundreds of recipes from around the world.</p>
         <div className="cta-buttons">
-          <a href="/recipes" className="btn">Browse Recipes</a>
-          <a href="/about" className="btn secondary">Learn More</a>
+          
+          <Link className="btn" to="/recipes">Browse Recipes</Link>
+          <Link  className="btn secondary" to="/about">Learn More</Link>
         </div>
       </header>
 
