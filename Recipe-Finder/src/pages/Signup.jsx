@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
 
-const API = 'http://localhost:4000';
+const API = 'https://mern2025-project.onrender.com';
 
 const Signup = () => {
   const [username, setName] = useState('');
