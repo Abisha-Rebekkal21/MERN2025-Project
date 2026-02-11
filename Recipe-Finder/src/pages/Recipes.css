@@ -53,3 +53,10 @@
     font-size: 14px;
   }
 }
+
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #eee;
+  font-size: 0.9rem;
+}
